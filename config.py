@@ -2,15 +2,15 @@ from os import environ
 
 
 # BOT CONFIG
-API_ID = environ.get("API_ID", 123456)  # api id
-API_HASH = environ.get("API_HASH", "")  # api hash
-BOT_TOKEN = environ.get("BOT_TOKEN", "")  # bot token
+API_ID = environ.get("API_ID", 18329555)  # api id
+API_HASH = environ.get("API_HASH", "7bf83fddf8244fddfb270701e31470a8")  # api hash
+BOT_TOKEN = environ.get("BOT_TOKEN", "7289601896:AAG0A32TgmJ-vyngI0UUz7dJdewc9pcFpps")  # bot token
 
 # REDIS
-REDIS_HOST = environ.get("REDIS_HOST", "localhost")  # redis host uri
-REDIS_PORT = environ.get("REDIS_PORT", 12345)  # redis port
+REDIS_HOST = environ.get("REDIS_HOST", "redis-17047.c17.us-east-1-4.ec2.redns.redis-cloud.com")  # redis host uri
+REDIS_PORT = environ.get("REDIS_PORT", 17047)  # redis port
 REDIS_PASSWORD = environ.get(
-    "REDIS_PASSWORD", "q8vcRgGfoZgwKT6irvJ6AixPs1lFZdW8"
+    "REDIS_PASSWORD", "XCZ3u8NzVm7F2lK1ZmhbBqWs0tspN5em"
 )  # redis password
 
 
